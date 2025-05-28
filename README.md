@@ -27,7 +27,7 @@ Una entidad financiera desea analizar las compras realizadas por sus clientes co
    - Crear índices para optimizar las búsquedas frecuentes.
 
 3. **Carga de información desde archivo `bd.xlsx`:**
-   - Usar una herramienta como **PgAdmin**, **DBeaver**, **SQL Workbench**, o un script en Python o SQL para cargar la información contenida en el archivo `bd.xlsx`.
+   - Usar **SSIS**, o un script en Python para cargar la información contenida en el archivo `bd.xlsx`.
    - El archivo contiene los datos para poblar las tablas `cliente`, `categoria` y `transaccion`.
    - Asegúrate de respetar los tipos de datos definidos y la integridad de claves foráneas al momento de hacer la carga.
 
