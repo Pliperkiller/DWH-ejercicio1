@@ -18,11 +18,10 @@ Una entidad financiera desea analizar las compras realizadas por sus clientes co
 
 1. **Diseño del modelo estrella:**
    - Identificar las **dimensiones** y la **tabla de hechos** a partir de la descripción del problema.
-   - Dibujar un diagrama del modelo estrella (opcional pero recomendado).
+   - Dibujar un diagrama del modelo estrella.
 
-2. **Creación de tablas en SQL (basado en PostgreSQL):**
-   - Crear las tablas `cliente` y `categoria` como dimensiones.
-   - Crear la tabla `transaccion` como tabla de hechos.
+2. **Creación de tablas en SQL:**
+   - Crear las tablas `transaccion`, `cliente` y `categoria` .
    - Asegurar la integridad referencial entre las tablas mediante claves foráneas.
    - Crear índices para optimizar las búsquedas frecuentes.
 
